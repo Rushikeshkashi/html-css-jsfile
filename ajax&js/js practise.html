@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<input type="text" id="first" placeholder="Enter your name here">
+
+<button onclick="ChangeMe()">Submit</button><br>
+
+<h1 id="heading1"></h1>
+<script type="text/javascript">
+   function ChangeMe()
+   {
+     name = document.getElementById("first").value;
+		 name = name.padStart(5,"0");
+		document.getElementById("heading1").innerHTML=name;
+   
+   }
+
+
+
+</script>
+</body>
+</html>

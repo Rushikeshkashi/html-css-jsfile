@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+	<html>
+	 <head>
+	  <style type="text/css">
+		body{
+		background-color:lightblue;
+		border:solid black;
+		padding:5px;
+		border-radius:5px;
+
+		}
+		.nk{
+		border:2px;
+
+		}
+		.model{
+		background-color:blue;
+		color:white;
+		}
+		.demo{
+		
+		
+		}
+		.free{ 
+		background-color:silver;
+		border-radius:5px;
+		size:80%;
+		}
+		
+		
+
+		</style>
+		</head>
+		<body>
+	      <form action="" method="post">
+			<table border="2px" style=" border-radius:5px;border-color:blue"; cellpadding="4px" cellspacing="1px" width="100%">
+			<th class="nk"><marquee behavior="alternate" scrollamount="15"><font color="red">WELCOME TO STUDENT DESK</font></marquee> </th>
+			</table><br>
+			 <center>&rarr;<strong>STUDENT INFORMTION FORM</strong>&rarr; </center><br>
+			  <table border="2px" cellpadding="4px" cellspacing="4px" width="100%">
+			   <thead>
+				<tr>
+				 <th class="model"colspan="3">
+				   <strong>&bull;STUDENT PERSONAL DETAILS&bull;</strong>
+						</th>
+			  </tr>
+				</thead>
+				<tbody>
+				<tr>
+				<td >First Name: <br> 
+				<input id="input1" class="free" type="text"  placeholder="Enter Name" >
+				<p id="sunil1"></p>
+				</td>
+				<td >Middle Name:<br> <input id="input2" class="free" type="text" placeholder="Enter Middle Name">
+				<p id="sunil2"></p>
+				</td>
+				<td >Last Name:<br> <input id="input3" class="free" type="text" placeholder="Enter last Name"  >
+				<p id="sunil3"></p>
+				</td>
+				</tr>
+				<tr>
+				<td >Email ID:<br> <input id="kashid" class="free" type="text" placeholder="Enter Email ID "  >
+				<p id="patil"></p>
+				</td>
+				<td class="demo">Mobile Number:<br> <input id="input5" class="free" type="text" placeholder="Enter Mobile Number"  >
+				<p id="sunil5"></p>
+				</td></td>
+				<td class="demo">D.O.B:<br> <input id="input6" class="free" type="Date"  >
+				<p id="sunil6"></p>
+				</td></td>
+				</tr>
+				<tr>
+				<td class="demo">Gender:<br>
+				<input id="male" type="radio" name="Gender" value="male"  >Male
+				
+				
+				<input id="female" type="radio" name="Gender" value="female"  >Female
+				
+				<input id="transgender" type="radio" name="Gender"  value="transgender" >Transgender
+				<p id="gender"></p>
+				
+				</td>
+				<td class="demo"><label class="tk">Blood Group:</label><br>
+				<select id="ten" class="start" name="blood Group">
+				
+				<option></option>
+				<option>A<sup>+</sup></option>
+				<option>B<sup>+</sup></option>
+				<option>O<sup>+</sup></option>
+				<option>AB<sup>+</sup></option>
+				<option>O<sup>-</sup></option>
+			
+				</select>
+				<p id="nine"></p>
+				</td>
+				<td class="demo">Time:<br>
+				<input id="input7" class="free" type="Time"   >
+				<p id="sunil7"></p>
+				</td>
+				</tr>
+				</tbody>
+					<thead>
+					  <tr>
+					  <th class="model"colspan="3">
+					  <strong>&bull;STUDENT PARENTS DETAILS&bull;</strong>
+					  </th>
+					  </tr>
+					  </thead>
+					  <tbody>
+					  <td class="demo">Father Full Name:<br><input id="input8" class="free" type="text" placeholder="Enter Name"  >
+					  <p id="sunil8"></p>
+					  </td>
+					  <td class="demo">Father Occupation:<br><input id="input9" class="free" type="text" placeholder="Enter Father Occupation"  >
+					  <p id="sunil9"></p>
+					  </td>
+					  <td class="demo">Father Mobile Number:<br><input id="input10"class="free" type="text" placeholder="Enter Father Mobile Number" >
+					  <p id="sunil10"></p>
+					  </td>
+					  <tr>
+					  <td class="demo">Mother Full Name:<br><input id="input11" class="free" type="text" placeholder="Enter Name"  >
+					  <p id="sunil11"></p>
+					  </td>
+					  <td class="demo">Mother Occupation:<br><input id="input12" class="free" type="text" placeholder="Enter Mother Occupation" >
+					  <p id="sunil12"></p>
+					  </td>
+					  <td class="demo">Mother Mobile Number:<br><input id="input13" class="free" type="text" placeholder="Enter Mother Mobile Number"  >
+					  <p id="sunil13"></p>
+					  </td>
+					  </tr>
+					  </tbody>
+					  <thead>
+					  <tr>
+					  <th class="model" colspan="3">
+					  <strong>&bull;STUDENT PERMANTS ADDRESS DETAILS&bull;</strong>
+					  </th>
+					  </tr>
+					  </thead>
+						  <tbody>
+						  <td class="demo">Permant Address:<br><input id="input14" class="free" type="address" placeholder="Enter PERMANTS ADDRESS"  >
+						  <p id="sunil14"></p>
+						  </td>
+						  <td class="demo">Town City:<br><input id="input15" class="free" type="text" placeholder="Enter Town City"  >
+						  <p id="sunil15"></p>
+						  </td>
+						  <td class="demo">Tal:<br><input id="input16" class="free" type="text" placeholder="Tal"  >
+						  <p id="sunil16"></p>
+						  </td>
+						  <tr>
+						  <td class="demo">Dist:<br><input id="input17" class="free" type="text" placeholder="Enter Name" >
+						  <p id="sunil17"></p>
+						  </td>
+						  <td class="demo">Pin Code:<br><input id="input18" class="free" type="text" placeholder="Enter pin code"  >
+						  <p id="sunil18"></p>
+						  </td>
+						  <td class="demo">State:<br>
+						  <select id="akshay" class="free">
+						  <option></option>
+						  <option>Andhra Pradesh</option>
+						  <option>Arunachal Pradesh</option>
+						  <option>Assam</option>
+						  <option>Bihar</option>
+						  <option>Chhattisgarh</option>
+						  <option>Goa</option>
+						  <option>Gujarat</option>
+						  <option>Haryana</option>
+						  <option>Himachal Pradesh</option>
+						  <option>Jharkhand</option>
+						  <option>Karnataka</option>
+						  <option>Kerala</option>
+						  <option>Madhya Pradesh</option>
+						  <option>Maharashtra</option>
+						  <option>Manipur</option>
+						  <option>Meghalaya</option>
+						  <option>Mizoram</option>
+						  <option>Nagaland</option>
+						  <option>Odisha</option>
+						  <option>Punjab</option>
+						  <option>Rajasthan</option>
+						  <option>Sikkim</option>
+						  <option>Tamil Nadu</option>
+						  <option>Telangana</option>
+						  <option>Tripura</option>
+						  <option>Uttar Pradesh</option>
+						  <option>Uttarakhand</option>
+						  <option>West Bengal</option>
+						  </select>
+						  <p id="shiv"></p>
+						  </td>
+						  </tr>
+						  <tr>
+						  <td class="demo">Country:<br><input id="input19" class="free" type="Country" placeholder="Enter Country "  >
+						  <p id="sunil19"></p>
+						  </td>
+						  </tr>
+						  </tbody>
+						  <thead>
+						  <tr>
+						  <th class="model" colspan="3">
+						  <strong>&bull;STUDENT CURRENT ADDRESS DETAILS&bull;</strong>
+						  </th>
+						  </tr>
+						  </thead>
+							  <tbody>
+							  <td class="read">Current address:<br><input id="input20" class="free" type="address" placeholder="Enter Current address"  >
+							  <p id="sunil20"></p>
+							  </td>
+							  <td class="read">Town City:<br><input id="input21" class="free" type="text" placeholder="Enter Town City"  >
+							  <p id="sunil21"></p>
+							  </td>
+							  <td class="read">Tal:<br><input id="input22" class="free" type="text" placeholder="Tal"  >
+							  <p id="sunil22"></p>
+							  </td>
+							  <tr>
+							  <td class="read">Dist:<br><input id="input23" class="free" type="text" placeholder="Enter Name"  >
+							  <p id="sunil23"></p>
+							  </td>
+							  <td class="read">Pin Code:<br><input id="input24" class="free" type="text" placeholder="Enter pin code" >
+							  <p id="sunil24"></p>
+							  </td>
+							  <td class="read">State:<br>
+							  <select id="state1" class="free">
+							  
+							  <option></option>
+							  <option>Andhra Pradesh</option>
+							  <option>Arunachal Pradesh</option>
+							  <option>Assam</option>
+							  <option>Bihar</option>
+							  <option>Chhattisgarh</option>
+							  <option>Goa</option>
+							  <option>Gujarat</option>
+							  <option>Haryana</option>
+							  <option>Himachal Pradesh</option>
+							  <option>Jharkhand</option>
+							  <option>Karnataka</option>
+							  <option>Kerala</option>
+							  <option>Madhya Pradesh</option>
+							  <option>Maharashtra</option>
+							  <option>Manipur</option>
+							  <option>Meghalaya</option>
+							  <option>Mizoram</option>
+							  <option>Nagaland</option>
+							  <option>Odisha</option>
+							  <option>Punjab</option>
+							  <option>Rajasthan</option>
+							  <option>Sikkim</option>
+							  <option>Tamil Nadu</option>
+							  <option>Telangana</option>
+							  <option>Tripura</option>
+							  <option>Uttar Pradesh</option>
+							  <option>Uttarakhand</option>
+							  <option>West Bengal</option>
+							  </select>
+							  <p id="mh1"></p>
+							  </td>
+							  <tr>
+							  <td class="demo">Country:<br><input id="input25" class="free" type="Country" placeholder="Enter Country "  >
+							  <p id="sunil25"></p>
+							  </td>
+							  
+							  </tr>
+							  <thead>
+							  <tr>
+							  <th class="model" colspan="3">
+							  <strong>&bull;STUDENT ADMISSION DETAILS&bull;</strong>
+							  </th>
+							  </tr>
+									</thead>
+								  <tbody>
+								  <td class="demo">Department:<br><input id="input26" class="free" type="text" placeholder="Enter Department" >
+								  <p id="sunil26"></p> 
+								  </td>
+								  <td class="demo">Date of Admission:<br><input id="input27" class="free" type="date">
+								  <p id="sunil27"></p>
+								  </td>
+								  <td class="demo">Date of Leaving:<br><input id="input28" class="free" type="date">
+								  <p id="sunil28"></p>
+								  </td>
+								  <tr>
+								  <td class="demo">Course Completion Year:<br><input id="input29" class="free" type="text" placeholder="Enter Year"  >
+								  <p id="sunil29"></p>
+								  </td>
+								  <td class="demo">Fee Paid:<br><input id="input30" class="free" type="text" placeholder="Enter Fee paid"  >
+								  <p id="sunil30"></p>
+								  </td>
+								  </tr>
+								  </tbody>
+								  </table>
+								 <hr style="border:2px solid black";>
+								  <center><button onclick="changeMe()" class="model" style="height:80px; width:180px; font-size:25px;" >submit</button></center><br>
+								  <hr style="border:2px solid black";>
+								  
+
+        </form>
+
+<script>
+		
+		function changeMe(){
+             button=document.getElementById("input1").value;
+
+            if (button==""){
+                document.getElementById("sunil1").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("sunil1").innerHTML=button;
+
+        }
+		
+		button=document.getElementById("input2").value;
+
+            if (button==""){
+                document.getElementById("sunil2").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("sunil2").innerHTML=button;
+
+        }
+		             button=document.getElementById("input3").value;
+
+            if (button==""){
+                document.getElementById("sunil3").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("sunil3").innerHTML=button;
+
+        }
+		             button=document.getElementById("kashid").value;
+
+            if (button==""){
+                document.getElementById("patil").innerHTML="<span style='color:red;'>Error</span>"; 
+
+                
+            }else{
+                document.getElementById("patil").innerHTML=button;
+
+        }
+		             button=document.getElementById("input5").value;
+
+            if (button==""){
+                document.getElementById("sunil5").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("sunil5").innerHTML=button;
+
+        }
+		             button=document.getElementById("input6").value;
+
+            if (button==""){
+                document.getElementById("sunil6").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("sunil6").innerHTML=button;
+
+        }
+		             button=document.getElementById("input7").value;
+
+            if (button==""){
+                document.getElementById("sunil7").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("sunil7").innerHTML=button;
+
+        }
+		             button=document.getElementById("input8").value;
+
+            if (button==""){
+                document.getElementById("sunil8").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("sunil8").innerHTML=button;
+
+        }
+		             button=document.getElementById("input9").value;
+
+            if (button==""){
+                document.getElementById("sunil9").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("sunil9").innerHTML=button;
+
+        }
+		             button=document.getElementById("input10").value;
+
+            if (button==""){
+                document.getElementById("sunil10").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("sunil10").innerHTML=button;
+
+        }
+		             button=document.getElementById("input11").value;
+
+            if (button==""){
+                document.getElementById("sunil11").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("sunil11").innerHTML=button;
+
+        }
+		             button=document.getElementById("input12").value;
+
+            if (button==""){
+                document.getElementById("sunil12").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("sunil12").innerHTML=button;
+
+        }
+		             button=document.getElementById("input13").value;
+
+            if (button==""){
+                document.getElementById("sunil13").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("sunil13").innerHTML=button;
+
+        }
+		             button=document.getElementById("input14").value;
+
+            if (button==""){
+                document.getElementById("sunil14").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("sunil14").innerHTML=button;
+
+        }
+		             button=document.getElementById("input15").value;
+
+            if (button==""){
+                document.getElementById("sunil15").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("sunil15").innerHTML=button;
+
+        }
+		             button=document.getElementById("input16").value;
+
+            if (button==""){
+                document.getElementById("sunil16").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("sunil16").innerHTML=button;
+
+        }
+		             button=document.getElementById("input17").value;
+
+            if (button==""){
+                document.getElementById("sunil17").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("sunil17").innerHTML=button;
+
+        }
+		             button=document.getElementById("input18").value;
+
+            if (button==""){
+                document.getElementById("sunil18").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("sunil18").innerHTML=button;
+
+        }
+		             button=document.getElementById("input19").value;
+
+            if (button==""){
+                document.getElementById("sunil19").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("sunil19").innerHTML=button;
+
+        }
+		             button=document.getElementById("input20").value;
+
+            if (button==""){
+                document.getElementById("sunil20").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("sunil20").innerHTML=button;
+
+        }
+		             button=document.getElementById("input21").value;
+
+            if (button==""){
+                document.getElementById("sunil21").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("sunil21").innerHTML=button;
+
+        }
+		             button=document.getElementById("input22").value;
+
+            if (button==""){
+                document.getElementById("sunil22").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("sunil22").innerHTML=button;
+
+        }
+		             button=document.getElementById("input23").value;
+
+            if (button==""){
+                document.getElementById("sunil23").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("sunil23").innerHTML=button;
+
+        }
+		             button=document.getElementById("input24").value;
+
+            if (button==""){
+                document.getElementById("sunil24").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("sunil24").innerHTML=button;
+
+        }
+		             button=document.getElementById("input25").value;
+
+            if (button==""){
+                document.getElementById("sunil25").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("sunil25").innerHTML=button;
+
+        }
+		             button=document.getElementById("input26").value;
+
+            if (button==""){
+                document.getElementById("sunil26").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("sunil26").innerHTML=button;
+
+        }
+		             button=document.getElementById("input27").value;
+
+            if (button==""){
+                document.getElementById("sunil27").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("sunil27").innerHTML=button;
+
+        }
+		             button=document.getElementById("input28").value;
+
+            if (button==""){
+                document.getElementById("sunil28").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("sunil28").innerHTML=button;
+
+        }
+		             button=document.getElementById("input28").value;
+
+            if (button==""){
+                document.getElementById("sunil28").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("sunil28").innerHTML=button;
+
+        }
+		             button=document.getElementById("input29").value;
+
+            if (button==""){
+                document.getElementById("sunil29").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("sunil29").innerHTML=button;
+
+        }
+		             button=document.getElementById("input30").value;
+
+            if (button==""){
+                document.getElementById("sunil30").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("sunil30").innerHTML=button;
+
+        }
+			if(document.getElementById("male").checked==true){
+				
+				document.getElementById("gender").innerHTML="male";
+				
+			}
+			else if (document.getElementById("female").checked==true){
+				
+				document.getElementById("gender").innerHTML="female";
+			}
+			else if (document.getElementById("transgender").checked==true){
+				
+				document.getElementById("gender").innerHTML="transgender";
+			}
+			else {
+				
+				document.getElementById("gender").innerHTML="<span style='color:red;'>Error</span>";
+			}
+					   button=document.getElementById("ten").value;
+
+            if (button==""){
+                document.getElementById("nine").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("nine").innerHTML=button;
+
+        }
+							   button=document.getElementById("state1").value;
+
+            if (button==""){
+                document.getElementById("mh1").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("mh1").innerHTML=button;
+
+        }
+		  button=document.getElementById("akshay").value;
+
+            if (button==""){
+                document.getElementById("shiv").innerHTML="<span style='color:red;'>Error</span>";
+
+                
+            }else{
+                document.getElementById("shiv").innerHTML=button;
+
+        }
+		}
+		document.querySelector('form').addEventListener('submit',function(event){
+			event.preventDefault();
+		});
+		
+</script>
+		</body>
+  </html>

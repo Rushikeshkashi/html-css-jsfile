@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.new_image1{
+border:2px solid black;
+padding:15px;
+background-color:blue;
+transition:5s;
+transition:all.5s ease-in-out;
+}
+.new_image2{
+border:2px solid black;
+height:100%;
+width:150%;
+border-radius:30%;
+transition:all.5s ease-in-out;
+display:none;
+
+}
+.new_image3{
+border:2px solid black;
+border-radius:50%;
+ background-color:red;
+ padding:30px;
+ transition:all.5s ease-in-out;
+}
+.new_image1:hover{
+transform:skew(-45deg);
+}
+.new_image2:hover{
+
+transform:scaleY(1.5);
+/*transform:skew(360deg);*/
+display-decoration:none;
+}
+.new_image3:hover{
+transform:scaleY(1.5);
+transform:rotate(360deg);
+display:none;
+
+}
+</style type="text/css">
+</head>
+<body>
+
+<div>
+<img src="love.jpg" style="width:100px;" class="new_image1">
+<img src="love.jpg" style="width:100px;" class="new_image2">
+<img src="love.jpg" style="width:100px;" class="new_image3">
+</div>
+</body>
+</html>

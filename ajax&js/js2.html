@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<input id="first" type="text" placeholder="enter">
+<pre id="second"><p></p></pre>
+ 
+ <button onclick="length ()">Length</button><br>
+ <button onclick="slice ()">Slice</button><br>
+ <button onclick="substring ()">Substring</button><br>
+ <button onclick="substr ()">Substr</button><br>
+ <button onclick="replace ()">Replace</button><br>
+ <button onclick="replaceAll ()">ReplaceAll</button><br>
+ <button onclick="toUpperCase ()">ToUpperCase</button><br>
+ <button onclick="toLowerCase ()">ToLowerCase</button><br>
+ <button onclick="concat ()">Concat</button><br>
+ <button onclick="padStart ()">PadStart</button><br>
+ <button onclick="padEnd ()">PadEnd</button><br>
+ <button onclick="trim ()">Trim</button><br>
+ <button onclick="trimStart ()">TrimStart</button><br>
+ <button onclick="trimEnd ()">TrimEnd</button><br>
+ <button onclick="charAt ()">CharAt</button><br>
+ <button onclick="charCodeAt ()">CharCodeAt</button><br>
+ <button onclick="split ()">Split</button><br>
+ 
+ <h1 id="rk"></h1>
+ 
+<script type="text/javascript">
+  function length()
+  {
+  name= document.getElementById("first").value;
+  name=name.length;
+  document.getElementById("rk").innerHTML=name;
+  }
+ function slice()
+  {
+  name= document.getElementById("first").value;
+  name=name.slice(2);
+  document.getElementById("rk").innerHTML=name;
+  }
+  function substring()
+  {
+  name= document.getElementById("first").value;
+  name=name.substring(3);
+  document.getElementById("rk").innerHTML=name;
+  }
+  function substr()
+  {
+  name= document.getElementById("first").value;
+  name=name.substr(3);
+  document.getElementById("rk").innerHTML=name;
+  }
+  function replace()
+  {
+  name= document.getElementById("first").value;
+  name=name.replace("rushi","suraj");
+  document.getElementById("rk").innerHTML=name;
+  }
+  function replaceAll()
+  {
+  name= document.getElementById("first").value;
+  name=name.replaceAll("names","others");
+  document.getElementById("rk").innerHTML=name;
+  }
+  function toUpperCase()
+  {
+  name= document.getElementById("first").value;
+  name=name.toUpperCase();
+  document.getElementById("rk").innerHTML=name;
+  }
+  function toLowerCase()
+  {
+  name= document.getElementById("first").value;
+  name=name.toLowerCase();
+  document.getElementById("rk").innerHTML=name;
+  }function concat()
+  {
+  name= document.getElementById("first").value;
+  name=name.concat("rushi","nagesh");
+  document.getElementById("rk").innerHTML=name;
+  }
+  
+  function padStart()
+  {
+  name= document.getElementById("first").value;
+  name=name.padStart(5,"0");
+  document.getElementById("rk").innerHTML=name;
+  }
+  function padEnd()
+  {
+  name= document.getElementById("first").value;
+  name=name.padEnd(5,"0");
+  document.getElementById("rk").innerHTML=name;
+  }
+  function charAt()
+  {
+  name= document.getElementById("first").value;
+  name=name.charAt("rushi");
+  document.getElementById("rk").innerHTML=name;
+  }
+  function charCodeAt()
+  {
+  name= document.getElementById("first").value;
+  name=name.charCodeAt();
+  document.getElementById("rk").innerHTML=name;
+  }
+  function trim()
+  {
+	rk="  helllo rushi    "  
+	name=rk.trim();  
+   document.getElementById("first").innerHTML=rk;
+
+  document.getElementById("second").innerHTML=name;
+  }
+  function trimStart()
+  {
+	rk="  hello rushi"  
+	name=rk.trim(); 
+  document.getElementById("first").innerHTML=rk;
+ 
+  document.getElementById("second").innerHTML=name;
+  }
+  function trimEnd()
+  {
+	  rk="hello rushi    "  
+	name=rk.trim(); 
+   document.getElementById("first").innerHTML=rk;
+  
+  document.getElementById("second").innerHTML=name;
+  }
+  function split()
+  {
+  name= document.getElementById("first").value;
+  name=name.split("my name is rushi");
+  document.getElementById("rk").innerHTML=name;
+  }
+  
+  
+ 
+ 
+ </script>
+
+
+</body>
+</html>
